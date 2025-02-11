@@ -26,7 +26,7 @@ int main()
       break;
     case 'c':
       puts("You selected chars:");
-      for (char c = 'A'; c < 'D'; c++)
+      char c = 'A';
 	print_char_11x16(c);
       putchar('\n');
       break;
